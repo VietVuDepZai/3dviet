@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Đã từng làm rất nhiều sản phẩm  <br /> và giành giải tại các cuộc thi thành phố và quốc gia
+          Mình đã từng làm rất nhiều sản phẩm  <br /> và giành giải tại các cuộc thi thành phố và quốc gia
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
