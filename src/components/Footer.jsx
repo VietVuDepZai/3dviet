@@ -7,9 +7,9 @@ const Footer = () => {
     <div>
     <hr className='border-slate-200' />
 
-    <footer className=' footer font-poppins flex justify-center items-center'>
+    <footer style={{background: "#0089ff var(--tw-gradient-from-position)"}}className=' footer font-poppins flex justify-center items-center'>
 
-      <div className='footer-container'>
+      <div style={{color: "white"}} className='footer-container'>
         <p>
           © 2023 <a href=""><strong>VuViet</strong></a>. All rights reserved.
         </p>
