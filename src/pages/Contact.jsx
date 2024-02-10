@@ -75,7 +75,7 @@ const Contact = () => {
     <section className='relative flex lg:flex-row flex-col max-container'>
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
-        <h1 className='head-text'>Get in Touch</h1>
+        <h1 className='head-text'>Liên hệ</h1>
 
         <form
           ref={formRef}
@@ -83,7 +83,7 @@ const Contact = () => {
           className='w-full flex flex-col gap-7 mt-14'
         >
           <label className='text-black-500 font-semibold'>
-            Name
+            Họ tên
             <input
               type='text'
               name='name'
@@ -111,12 +111,12 @@ const Contact = () => {
             />
           </label>
           <label className='text-black-500 font-semibold'>
-            Your Message
+            Tin nhắn
             <textarea
               name='message'
               rows='4'
               className='textarea'
-              placeholder='Write your thoughts here...'
+              placeholder='Hãy viết ra dòng suy nghĩ của bạn'
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}
@@ -131,7 +131,7 @@ const Contact = () => {
             onFocus={handleFocus}
             onBlur={handleBlur}
           >
-            {loading ? "Sending..." : "Submit"}
+            {loading ? "Đang gửi" : "Gửi đi"}
           </button>
         </form>
       </div>
