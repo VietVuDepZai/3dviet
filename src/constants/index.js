@@ -189,6 +189,6 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: '2048',
         description: '2048 là một trò chơi điện tử giải đố gạch trượt một người chơi được viết bởi nhà phát triển web người Ý Gabriele Cirulli và được xuất bản trên GitHub. Mục tiêu của trò chơi là trượt các ô được đánh số trên lưới và đạt điểm cao nhất, game này mình đã cố gắng làm lại, mong các bạn thik nó =))',
-        link: 'https://play.unity.com/p/2048-d0nk/edit',
+        link: 'https://play.unity.com/mg/other/2048-d0nk',
     }
 ];
