@@ -3,7 +3,10 @@
   margin: 0 auto;
   text-align: center;
 }
-
+footer {
+  background: #0089ff var(--tw-gradient-from-position);
+  color: white;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
