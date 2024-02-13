@@ -104,7 +104,7 @@ export const experiences = [
     {
         title: "Digitrans Edtech",
         company_name: " Cuộc thi DigiTrans Edtech 2022 với chủ đề “Ứng dụng chuyển đổi số trong lĩnh vực giáo dục”",
-        icon: "https://kdi.edu.vn/wp-content/uploads/2022/08/cropped-KDI-Favicon-32x32.png",
+        icon: "/src/assets/icons/cropped-KDI-Favicon-32x32.png",
         iconBg: "#ffffff",
         linkicon: "https://vutriviet.com",
 
@@ -118,9 +118,9 @@ export const experiences = [
     },
     {
         title: "Tin học trẻ 2022 - 2023",
-        company_name: "Tesla",
+        company_name: "Cuộc thi Tin học trẻ lớn nhất cả nước",
         linkicon: "https://vutriviet.com",
-        icon: "https://tinhoctre.vn/static/icons/Savio.png",
+        icon: "/src/assets/icons/Savio.png",
         iconBg: "#f5f5f5",
         date: "Từ ngày 15/6/2023 - 4/8/2023",
         points: [
@@ -134,7 +134,7 @@ export const experiences = [
         title: "NCKH 2023 - 2024",
         linkicon: "https://flatter.onrender.com",
         company_name: "Cuộc thi KHKT cấp thành phố",
-        icon: "https://84860e6b26.vws.vegacdn.vn/UploadImages/Config/hcmedu/Logo.png",
+        icon: "/src/assets/icons/Logo.png",
         iconBg: "#f5f5f5",
         date: "11/1/2024",
         points: [
@@ -163,14 +163,14 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: "https://cdn-icons-png.flaticon.com/512/1414/1414305.png",
+        iconUrl: "/src/assets/icons/1414305.png",
         theme: 'btn-back-red',
         name: 'TechnoLearning',
         description: 'Developed a web application that keep track of what you are learning by create a note list for you.',
         link: 'https://technolearning.netlify.app',
     },
     {
-        iconUrl: "https://flatter.onrender.com/static/images/fix.png",
+        iconUrl: "/src/assets/icons/fix.png",
         theme: 'btn-back-blue',
         name: 'Flatter',
         description: 'Flatter - đồng hành cùng người trầm cảm là công trình nghiên cứu của hai học sinh lớp 8 ở TP.HCM. Dự án này đã lọt vào vòng chung kết Cuộc thi khoa học kỹ thuật cấp thành phố.',
@@ -185,7 +185,7 @@ export const projects = [
         link: 'https://github.com/VietVuDepZai/VietVuDepZai',
     },
     {
-        iconUrl: "https://th.bing.com/th/id/OIP.5o2AxwykXETqIXpo_4alAwHaHa?rs=1&pid=ImgDetMain",
+        iconUrl: "/src/assets/icons/OIP.jpg",
         theme: 'btn-back-yellow',
         name: '2048',
         description: '2048 là một trò chơi điện tử giải đố gạch trượt một người chơi được viết bởi nhà phát triển web người Ý Gabriele Cirulli và được xuất bản trên GitHub. Mục tiêu của trò chơi là trượt các ô được đánh số trên lưới và đạt điểm cao nhất, game này mình đã cố gắng làm lại, mong các bạn thik nó =))',
