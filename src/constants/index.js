@@ -21,12 +21,9 @@ import {
     python,
     sass,
     flatter,
-    game,
     tailwindcss,
     threads,
     typescript,
-    technolearning,
-    tinhoctre
 } from "../assets/icons";
 
 export const skills = [

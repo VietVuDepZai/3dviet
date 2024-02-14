@@ -106,6 +106,9 @@ const About = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
+                  style={{
+                    display: "block"
+                  }}
                 >
                   Link dự án
                 </Link>
