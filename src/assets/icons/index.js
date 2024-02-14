@@ -1,7 +1,12 @@
 import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
+import technolearning from './1414305.png'
+import game from './OIP.jpg'
 import github from './github.svg'
+import tinhoctre from './Savio.png'
+import kdi from './cropped-KDI-Favicon-32x32.png'
+import nckh from './Logo.png'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
@@ -28,9 +33,17 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './R.png'
 import django from './django.jpg'
+import flatter from './fix.png'
 export {
+    flatter,
     css,
-    express,
+     technolearning ,
+ game ,
+
+ tinhoctre,
+ kdi,
+ nckh,  
+   express,
     git,
     github,
     django,

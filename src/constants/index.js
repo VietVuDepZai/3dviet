@@ -1,30 +1,32 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
+    technolearning,
     contact,
     css,
-    estate,
+    game,
     django,
     express,
     git,
     github,
     html,
     javascript,
-    linkedin,
+    tinhoctre,
     mongodb,
-    motion,
+    kdi,
     mui,
     nextjs,
     nodejs,
-    pricewise,
+    nckh,
     react,
     python,
     sass,
-    snapgram,
-    summiz,
+    flatter,
+    game,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    technolearning,
+    tinhoctre
 } from "../assets/icons";
 
 export const skills = [
@@ -104,7 +106,7 @@ export const experiences = [
     {
         title: "Digitrans Edtech",
         company_name: " Cuộc thi DigiTrans Edtech 2022 với chủ đề “Ứng dụng chuyển đổi số trong lĩnh vực giáo dục”",
-        icon: "/src/assets/icons/cropped-KDI-Favicon-32x32.png",
+        icon: kdi,
         iconBg: "#ffffff",
         linkicon: "https://vutriviet.com",
 
@@ -120,7 +122,7 @@ export const experiences = [
         title: "Tin học trẻ 2022 - 2023",
         company_name: "Cuộc thi Tin học trẻ lớn nhất cả nước",
         linkicon: "https://vutriviet.com",
-        icon: "/src/assets/icons/Savio.png",
+        icon: tinhoctre,
         iconBg: "#f5f5f5",
         date: "Từ ngày 15/6/2023 - 4/8/2023",
         points: [
@@ -134,7 +136,7 @@ export const experiences = [
         title: "NCKH 2023 - 2024",
         linkicon: "https://flatter.onrender.com",
         company_name: "Cuộc thi KHKT cấp thành phố",
-        icon: "/src/assets/icons/Logo.png",
+        icon: nckh,
         iconBg: "#f5f5f5",
         date: "11/1/2024",
         points: [
@@ -163,14 +165,14 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: "/src/assets/icons/1414305.png",
+        iconUrl: technolearning,
         theme: 'btn-back-red',
         name: 'TechnoLearning',
         description: 'Developed a web application that keep track of what you are learning by create a note list for you.',
         link: 'https://technolearning.netlify.app',
     },
     {
-        iconUrl: "/src/assets/icons/fix.png",
+        iconUrl: flatter,
         theme: 'btn-back-blue',
         name: 'Flatter',
         description: 'Flatter - đồng hành cùng người trầm cảm là công trình nghiên cứu của hai học sinh lớp 8 ở TP.HCM. Dự án này đã lọt vào vòng chung kết Cuộc thi khoa học kỹ thuật cấp thành phố.',
@@ -185,7 +187,7 @@ export const projects = [
         link: 'https://github.com/VietVuDepZai/VietVuDepZai',
     },
     {
-        iconUrl: "/src/assets/icons/OIP.jpg",
+        iconUrl: game,
         theme: 'btn-back-yellow',
         name: '2048',
         description: '2048 là một trò chơi điện tử giải đố gạch trượt một người chơi được viết bởi nhà phát triển web người Ý Gabriele Cirulli và được xuất bản trên GitHub. Mục tiêu của trò chơi là trượt các ô được đánh số trên lưới và đạt điểm cao nhất, game này mình đã cố gắng làm lại, mong các bạn thik nó =))',
