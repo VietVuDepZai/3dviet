@@ -4,9 +4,9 @@ import code from "../assets/2048.wasm?init"
 const Game = () => {
 
     const { unityProvider } = useUnityContext({
-      loaderUrl: "https://res.cloudinary.com/dyiesiahu/raw/upload/v1708318155/u5mxcrxkg5pxdowfff4i.js",
+      loaderUrl: "../assets/2048.loader.js",
       dataUrl: data,
-      frameworkUrl: "https://res.cloudinary.com/dyiesiahu/raw/upload/v1708318265/qarcliegry5l80mxv1x2.js",
+      frameworkUrl: "../assets/2048.framework.js",
       codeUrl: code,
     });
   
