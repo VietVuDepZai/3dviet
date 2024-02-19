@@ -1,13 +1,12 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
-import data from "../assets/2048.data";
-import code from "../assets/2048.wasm?init"
+
 const Game = () => {
 
     const { unityProvider } = useUnityContext({
-      loaderUrl: "../assets/2048.loader.js",
-      dataUrl: data,
-      frameworkUrl: "../assets/2048.framework.js",
-      codeUrl: code,
+      loaderUrl: "/2048.loader.js",
+      dataUrl: "/2048.data",
+      frameworkUrl: "/2048.framework.js",
+      codeUrl: "/2048.wasm",
     });
   
     return (
