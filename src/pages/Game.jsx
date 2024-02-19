@@ -1,6 +1,8 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
+import { FullScreen, useFullScreenHandle } from "react-full-screen";
 
 const Game = () => {
+    const handle = useFullScreenHandle();
 
     const { unityProvider } = useUnityContext({
       loaderUrl: "/2048.loader.js",
@@ -11,7 +13,9 @@ const Game = () => {
   
     return (
       <div id="unity-container" className="unity-desktop">
-        <Unity unityProvider={unityProvider} style={{width : "960px", height : '690px'}}/>
+        <FullScreen handle={handle}>
+          <Unity unityProvider={unityProvider}/>
+        </FullScreen>
         <div id="unity-loading-bar">
           <div id="unity-logo"></div>
           <div id="unity-progress-bar-empty">
@@ -21,10 +25,12 @@ const Game = () => {
         <div id="unity-warning"> </div>
         <div id="unity-footer">
           <div id="unity-webgl-logo"></div>
-          <div id="unity-fullscreen-button"></div>
+          <button onClick={handle.enter} id="unity-fullscreen-button"></button>
           <div id="unity-build-title">2048</div>
         </div>
+       
       </div>
+      
     );
   
 }
