@@ -177,11 +177,11 @@ export const projects = [
     },
     
     {
-        iconUrl: github,
-        theme: 'btn-back-black',
-        name: 'Trang Github của mình',
-        description: 'Đây là nơi các bạn có thể liên lạc với mình, sau này tất cả các sản phẩm mình sẽ để trên này',
-        link: 'https://github.com/VietVuDepZai/VietVuDepZai',
+        iconUrl: "https://th.bing.com/th/id/OIP.v2vBzMN4-oDhz3foT2QzDQHaHa?rs=1&pid=ImgDetMain",
+        theme: 'btn-back-green',
+        name: 'Chém hoa quả',
+        description: 'Fruit Ninja là một trò chơi điện tử được phát triển bởi Halfbrick ban đầu được phát hành vào ngày 12 tháng 8 năm 2010. Trong trò chơi, người chơi phải cắt trái cây được ném lên không trung bằng cách vuốt màn hình cảm ứng,...',
+        link: '/Fruitninja',
     },
     {
         iconUrl: game,
