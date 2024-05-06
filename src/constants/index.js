@@ -173,7 +173,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Flatter',
         description: 'Flatter - đồng hành cùng người trầm cảm là công trình nghiên cứu của hai học sinh lớp 8 ở TP.HCM. Dự án này đã lọt vào vòng chung kết Cuộc thi khoa học kỹ thuật cấp thành phố.',
-        link: 'https://flatter.onrender.com',
+        link: 'https://en-flatter.vercel.app/',
     },
     
     {
